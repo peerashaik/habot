@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/habot/static/css/main.ba8fd73d.css",
+    "main.js": "/habot/static/js/main.291b7b2f.js",
+    "static/media/hero-banner.png": "/habot/static/media/hero-banner.4f3a1615d7785f73c314.png",
+    "static/media/video-buyer.png": "/habot/static/media/video-buyer.b0586ee519eaba682bbd.png",
+    "static/media/logo-dark.png": "/habot/static/media/logo-dark.611ef85529e6f46a3ccb.png",
+    "index.html": "/habot/index.html",
+    "main.ba8fd73d.css.map": "/habot/static/css/main.ba8fd73d.css.map",
+    "main.291b7b2f.js.map": "/habot/static/js/main.291b7b2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba8fd73d.css",
+    "static/js/main.291b7b2f.js"
+  ]
+}
