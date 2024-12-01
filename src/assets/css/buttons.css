@@ -1,0 +1,62 @@
+/*buttons*/
+.btn {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 14px 20px;
+    transition: all .9s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.btn.arrow {
+    padding: 14px 100px 14px 40px;
+
+    &:before {
+        content: "\f138";
+        font-size: 32px;
+        line-height: 17px;
+        width: 32px;
+        height: 17px;
+        position: absolute;
+        right: 30px;
+        top: 18px;
+        transition: 0.3s;
+    }
+
+    &:hover:before {
+        right: 25px;
+    }
+}
+
+.btn-primary {
+    background-color: var(--green);
+    border-color: var(--green);
+    color: var(--white);
+
+    &:is(:hover, :focus) {
+        background-color: var(--secondary);
+        border-color: var(--secondary);
+    }
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--white);
+
+    &:is(:hover, :focus) {
+        background-color: var(--black);
+        border-color: var(--black);
+    }
+}
+
+.btn-outline {
+    background-color: var(--white);
+    border-color: var(--green);
+    color: var(--green) !important;
+
+    &:is(:hover, :focus) {
+        background-color: transparent;
+        color: var(--black);
+    }
+}

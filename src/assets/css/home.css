@@ -1,0 +1,60 @@
+/*Home Banner*/
+.color-bg {
+    &.blue {
+        background: var(--primary);
+    }
+
+    &.creamy {
+        background: var(--creamy);
+    }
+}
+
+.tabContent li {
+    background: url('../images/tick.png') no-repeat;
+    padding-left: 35px;
+}
+
+.bottom-line {
+    &:before {
+        content: "";
+        background-color: var(--secondary);
+        display: block;
+        position: absolute;
+        bottom: -15px;
+        width: 100%;
+        height: 5px;
+        transition: 0.3s;
+    }
+    
+    &:hover {
+        cursor: pointer;
+
+        &:before {
+            width: 0;
+        }  
+    }
+}
+
+.howitworksList {
+    div:nth-child(odd) {
+        background: var(--creamy);
+    }
+}
+
+.MuiTab-textColorPrimary {
+    color: var(--white) !important;
+    font-size: 28px !important;
+    font-weight: bold !important;
+    text-transform: none !important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+    background: transparent;
+    color: var(--secondary) !important;
+    outline: none;
+}
+
+.css-1qltlow-MuiTabs-indicator {
+    background-color: var(--secondary) !important;
+    height: 4px !important;
+}

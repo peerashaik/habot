@@ -1,0 +1,41 @@
+@media(max-width: 767px) {
+	.navbar {
+		position: fixed !important;
+	    right: 0;
+	    z-index: 999 ;
+	}
+	.navbar-toggler {
+	    position: fixed;
+	    right: 15px;
+	    top: 28px;
+	    z-index: 9999;
+	}
+
+	.navbar-collapse {
+		right: -100%;
+	}
+
+	.collapse.show {
+		background: var(--white);
+		position: fixed;
+	    right: 0;
+	    top: 0;
+	    z-index: 999;
+	    width: 90vw;
+	    height: 100vh;
+	    animation: .3s slide-in linear;
+	}
+
+	@keyframes slide-in {
+		from {
+		    right: -100%;
+		    opacity: 0;
+		}
+
+		to {
+		    right: 0;
+		    opacity: 1;
+		}
+	}
+}
+
